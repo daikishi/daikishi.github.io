@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>キャンプ予約</title>
+    <link rel="stylesheet" href="stylesheet.css">
+
+  <body>
+    <header>
+        <div class="header-left">
+          <p>つくりおきべん島</p>
+        </div>
+        <div class="header-right">
+          <p>TEL:000-000-000</p>
+          <p>北半球</p>
+        </div>
+    </header>
+
+    <div class="menu-wrapper">
+      <div class="menu-contents">
+        <a href="index.html">トップページ</a>
+        <a href="#">施設案内</a>
+        <a href="residents.html">住民紹介</a>
+        <a href="#">島民代表挨拶</a>
+      </div>
+    </div>
+
+    <div class="subpage-wrapper">
+      <div class="subpage-top">
+        <h1>キャンプサイト予約</h1>
+        <p>キャンプサイトはこちらから予約をお願いいたします。</p>
+      </div>
+
+      <form class="reservation-form" action="reservation.php" method="post">
+          <p>お名前：<input type="text" name="name"></p>
+          <p>メールアドレス：<input type="text" name="adress"></p>
+          <p>
+            性別：<input type="radio" name="sex" value="male">男
+            <input type="radio" name="sex" value="female">女
+          </p>
+          血液型：
+          <select name="blood">
+            <option value="A">A型</option>
+            <option value="B">B型</option>
+            <option value="O">O型</option>
+            <option value="AB">AB型</option>
+          </select>
+          <p>
+            ご要望：<br>
+            <textarea name="youbou" rows="8" cols="80"></textarea>
+          </p>
+          <p>
+            <input class="reservation-button" type="submit" value="送信">
+            <input class="reservation-button" type="reset" value="リセット">
+          </p>
+      </form>
+      <div class="clear"></div>
+      </div>
+    </div>
+
+    <footer>
+        <p>COPYRIGHT © たぬき開発 ALL RIGHTS RESERVED.</p>
+    </footer>
+  </body>
+</html>
