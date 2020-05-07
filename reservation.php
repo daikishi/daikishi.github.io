@@ -8,19 +8,19 @@
 <body>
   <table>
     <tr>
-      <td>お名前</td><td><?php echo $_POST["name"] ?></td>
+      <td>お名前</td><td><?php echo $_POST["name"]; ?></td>
     </tr>
     <tr>
-      <td>メールアドレス</td><td><?php echo $_POST["adress"] ?></td>
+      <td>メールアドレス</td><td><?php echo $_POST["adress"]; ?></td>
     </tr>
     <tr>
-      <td>性別</td><td><?php echo $_POST["sex"] ?></td>
+      <td>性別</td><td><?php echo $_POST["sex"]; ?></td>
     </tr>
     <tr>
-      <td>血液型</td><td><?php echo $_POST["blood"] ?></td>
+      <td>血液型</td><td><?php echo $_POST["blood"]; ?></td>
     </tr>
     <tr>
-      <td>ご要望</td><td><?php echo $_POST["youbou"] ?></td>
+      <td>ご要望</td><td><?php echo $_POST["youbou"]; ?></td>
     </tr>
   </table>
 </body>
